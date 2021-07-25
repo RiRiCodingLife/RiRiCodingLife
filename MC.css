@@ -132,74 +132,11 @@ body {
     color: #7FADE3;
     
 }
-#SCP {
-    position: absolute;
-    top: 30%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    width: 400px;
-    height: 60px;
-    text-align: center;
-    line-height: 60px;
-    color: #fff;
-    font-size: 24px;
-    text-transform: uppercase;
-    text-decoration: none;
-    font-family: sans-serif;
-    box-sizing: border-box;
-    background-size:400%;
-    border-radius: 30px;
-    z-index: 1;
-    color: #7FADE3;
-    
-}
-#SCPINFO {
-    position: absolute;
-    top: 30%;
-    left: 25%;
-    transform: translate(-50%,-50%);
-    width: 400px;
-    height: 60px;
-    text-align: center;
-    line-height: 60px;
-    color: #fff;
-    font-size: 24px;
-    text-transform: uppercase;
-    text-decoration: none;
-    font-family: sans-serif;
-    box-sizing: border-box;
-    background-size:400%;
-    border-radius: 30px;
-    z-index: 1;
-    color: #7FADE3;
-    
-}
-#SCPYT {
-    position: absolute;
-    top: 30%;
-    left: 75%;
-    transform: translate(-50%,-50%);
-    width: 400px;
-    height: 60px;
-    text-align: center;
-    line-height: 60px;
-    color: #fff;
-    font-size: 24px;
-    text-transform: uppercase;
-    text-decoration: none;
-    font-family: sans-serif;
-    box-sizing: border-box;
-    background-size:400%;
-    border-radius: 30px;
-    z-index: 1;
-    color: #7FADE3;
-    
-}
 
 
 #RDE {
     position: absolute;
-    top: 40%;
+    top: 30%;
     left: 50%;
     transform: translate(-50%,-50%);
     width: 400px;
@@ -220,7 +157,7 @@ body {
 }
 #RDEINFO {
     position: absolute;
-    top: 40%;
+    top: 30%;
     left: 25%;
     transform: translate(-50%,-50%);
     width: 400px;
@@ -241,7 +178,7 @@ body {
 }
 #RDEYT {
     position: absolute;
-    top: 40%;
+    top: 30%;
     left: 75%;
     transform: translate(-50%,-50%);
     width: 400px;
@@ -262,7 +199,7 @@ body {
 }
 #UCR {
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 25%;
     transform: translate(-50%,-50%);
     width: 400px;
@@ -283,7 +220,7 @@ body {
 }
 #UCRINFO {
     position: absolute;
-    top: 50%;
+    top: 40%;
     left:55.4%;
     transform: translate(-50%,-50%);
     width: 400px;
@@ -304,7 +241,7 @@ body {
 }
 #UCRYT {
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 85.5%;
     transform: translate(-50%,-50%);
     width: 400px;
