@@ -1,8 +1,35 @@
-#grad1 {
-  height: 1000px;
 
-  background-image: linear-gradient(to bottom right, #121212, white);
+
+body {
+  display: flex;
+  justify-content: center;
+  background-color: #434343
+
 }
+
+/* DEMO-SPECIFIC STYLES */
+.typewriter h1 {
+  color: white;
+  font-family: monospace;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  /*border-right: .15em solid orange; The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  font-size: 100px;
+  animation: 
+    typing 3.5s steps(30, end),
+    blink-caret .5s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+
+
 
 
 
@@ -49,6 +76,8 @@
   top: 80%;
   left: 36%;
 }
+
+
 #googleicon {
   align-items: center;
   position: absolute;
@@ -85,14 +114,16 @@
 
 #Csharp {
     position: absolute;
-    top: 50%;
+    align-self: center;
+    align-items: center;
     left: 65%;
+    top: 50%;
     transform: translate(-50%,-50%);
     width: 200px;
     height: 60px;
     text-align: center;
     line-height: 60px;
-    color: #fff;
+    /*color: #fff;*/
     font-size: 24px;
     text-transform: uppercase;
     text-decoration: none;
@@ -101,13 +132,15 @@
     background-size:400%;
     border-radius: 30px;
     z-index: 1;
-    color: #7FADE3;
-    background-color: white;
+    color: white;
+    background-color: #434343;
 }
 #MC {
     position: absolute;
-    top: 50%;
+    align-self: center;
+    align-items: center;
     left: 35%;
+    top: 50%;
     transform: translate(-50%,-50%);
     width: 200px;
     height: 60px;
@@ -125,7 +158,6 @@
     color: #7FADE3;
     background-color: white;
 }
-
 #changelog {
     position: absolute;
     top: 50%;
@@ -148,16 +180,16 @@
     background-color: white;
 }
 #Csharp:hover{
-    background-color: #307FE2;
+    background-color: white;
 }
 #Java:hover{
-    background-color: #307FE2;
+    background-color: white;
 }
 #MC:hover{
-    background-color: #307FE2;
+    background-color: white;
 }
 #changelog:hover{
-    background-color: #307FE2;
+    background-color: white;
 }
 
 .middle{
@@ -171,11 +203,11 @@
     display: inline-block;
     width: 90px;
     height: 90px;
-    background: #f1f1f1;
+    background: #434343;
     margin: 10px;
     border-radius: 30%;
     box-shadow: 0 5px 15px -5px #00000070;
-    color: #3498db;
+    color: white;
     overflow: hidden;
     position: relative;
   }
@@ -186,20 +218,20 @@
   }
   .btn:hover i{
     transform: scale(1.3);
-    color: #f1f1f1;
+    color: #434343;
   }
   .btn::before{
     content: "";
     position: absolute;
     width: 120%;
     height: 120%;
-    background: #3498db;
+    background: white;
     transform: rotate(45deg);
     left: -110%;
     top: 90%;
   }
   .btn:hover::before{
-    animation: aaa 0.7s 1;
+    animation: aaa 1.0s 1;
     top: -10%;
     left: -10%;
   }

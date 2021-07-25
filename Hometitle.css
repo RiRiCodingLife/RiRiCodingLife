@@ -12,7 +12,7 @@
   }
   .text:before{
     content: 'RiRi';
-    color: #00BBDC;
+    color: black;
     position: absolute;
     width: 0;
     overflow: hidden;
